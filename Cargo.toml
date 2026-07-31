@@ -1,0 +1,5 @@
+[package]
+name = "aetrox_compiler"
+version = "0.1.0"
+authors = OmniSyntax mrsohammanjrekar@gmail.com
+license = "MIT OR Apache-2.0"
