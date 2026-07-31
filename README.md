@@ -88,3 +88,137 @@ at your option.
 
 🤝 Contribution
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.
+
+
+index dcotmuteion 
+Part 1: Getting Started
+Installation & Setup
+
+Hello World
+
+Command-Line Arguments & Flags
+
+Environment Variables
+
+Building Your First Project (Guessing Game)
+
+Part 2: Core Language Basics
+Variables & Mutability
+
+Constants
+
+Primitive Data Types (Int, Float, Bool, String, Rune)
+
+Operators & Math Precedence
+
+Control Flow: If / Else
+
+Control Flow: Switch & Pattern Matching
+
+Control Flow: For & While Loops
+
+Functions & Multiple Return Values
+
+Variadic Functions (Accepting multiple arguments)
+
+Closures & Anonymous Functions
+
+Recursion
+
+Part 3: Shaping Data & Collections
+Arrays (Fixed size)
+
+Slices / Vectors (Dynamic size)
+
+Maps & HashMaps (Key-Value pairs)
+
+Structs (Custom data types)
+
+Methods (Functions attached to Structs)
+
+Struct Embedding & Composition
+
+Enums (Defining variants)
+
+Iterators & Ranging over collections
+
+Part 4: Advanced Architecture
+Pointers & References
+
+Interfaces & Traits (Shared behavior)
+
+Generics (Type-agnostic programming)
+
+Scoping, Shadowing, & Privacy
+
+Modules, Packages, and Imports
+
+Part 5: Error Handling & Safety
+Recoverable Errors (Result types / Custom Errors)
+
+Unrecoverable Errors (Panic / Crashing safely)
+
+Defer, Catch, and Recover
+
+Testing & Benchmarking Your Code
+
+Logging & Debugging Tools
+
+Part 6: Concurrency & Async (Doing things at the same time)
+Threads & Goroutines (Spawning tasks)
+
+Channels & Message Passing
+
+Mutexes & State Locking
+
+Async, Await, and Futures
+
+Timeouts & Rate Limiting
+
+WaitGroups & Worker Pools
+
+Part 7: Standard Library (File System & Network)
+Reading & Writing Files
+
+Directories & File Paths
+
+HTTP Client (Making web requests)
+
+HTTP Server (Hosting web APIs)
+
+TCP Servers & Sockets
+
+JSON & XML Parsing
+
+Part 8: Standard Library (Utilities)
+String Formatting & Text Templates
+
+Regular Expressions (Regex)
+
+Time, Dates, and Epochs
+
+Math, Sorting, and Random Numbers
+
+Cryptography (SHA256, Base64 Encoding)
+
+Executing External Processes (Shell commands)
+
+Part 9: Elite Compiler Features
+Memory Management (Stack vs. Heap)
+
+Ownership, Borrowing, & Lifetimes
+
+Smart Pointers & Reference Counting
+
+Macros (Code that writes code)
+
+Unsafe Code & C++ Interoperability (FFI)
+
+Part 10: Under the Hood (For Contributors)
+The Lexer & Tokenization Rules
+
+The Parser & Abstract Syntax Tree (AST)
+
+The Typechecker Rules
+
+Code Generation Lifecycle
