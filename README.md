@@ -1,5 +1,6 @@
 <div align="center">
-
+<!-- Link your logo image file -->
+  <img src="path/to/logo.png" alt="Aetrox Logo" width="180" height="180">
   <h1>Aetrox</h1>
   <p><strong>Unstoppable force. Absolute precision.</strong></p>
 
