@@ -1,0 +1,1 @@
+C:\Users\mrsoh\Downloads\github\Aetrox\target\debug\aetrox.exe: C:\Users\mrsoh\Downloads\github\Aetrox\src\lexer\mod.rs C:\Users\mrsoh\Downloads\github\Aetrox\src\lexer\source.rs C:\Users\mrsoh\Downloads\github\Aetrox\src\lexer\tokens.rs C:\Users\mrsoh\Downloads\github\Aetrox\src\main.rs
