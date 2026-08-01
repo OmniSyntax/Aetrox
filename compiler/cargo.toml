@@ -1,0 +1,15 @@
+[package]
+name = "compiler"
+version = "0.1.0"
+edition = "2024"
+authors = ["OmniSyntax"]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+logos = "0.14"
+miette = { version = "7.0", features = ["derive"] }
+thiserror = "2.0"
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ai_tensor_lib = { path = "../packages/Artificial Intelligence & Data Science/ai_tensor" }

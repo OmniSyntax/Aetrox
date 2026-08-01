@@ -55,3 +55,33 @@ fn main() {
         }
     }
 }
+// compiler/src/main.rs
+mod cli;          // Tells Rust to load your new cli folder
+mod lexer;        // Existing modules...
+mod parser;
+mod typechecker;
+mod codegen;
+mod driver;
+
+use clap::Parser;
+use cli::{Cli, Commands};
+
+fn main() {
+    // 1. Parse the command line arguments
+    let args = Cli::parse();
+
+    // 2. Route the command to the right file
+    match args.command {
+        Commands::New => {
+            // Trigger the interactive UI
+            let config = cli::interactive::prompt_user();
+            // Trigger the folder generation
+            cli::scaffold::generate_project(&config);
+        }
+        Commands::Run => {
+            // Trigger your actual compiler!
+            println!("🚀 Starting Aetrox compiler...");
+            // driver::compile_and_run();
+        }
+    }
+}
