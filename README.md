@@ -1,6 +1,6 @@
 # <div align="center">
 
-<img src=".github/assets/logo.png" alt="EVO Logo" width="180" height="180">
+<img src=".github/assets/" alt="EVO Logo" width="180" height="180">
 
 # EVO
 
